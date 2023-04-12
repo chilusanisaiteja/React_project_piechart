@@ -1,0 +1,56 @@
+select {
+    margin-top: 20px;
+}
+
+.inputinfo {
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-right: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+label {
+    color: white;
+    margin-right: 40px;
+}
+
+input {
+    height: 30px;
+    width: 80%;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.button1 {
+    height: 32px;
+    color: white;
+    background-color: rgb(27, 64, 185);
+    width: 20%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+
+.piechart {
+    margin-left: 40%;
+    width: 80vw;
+    height: 60vh;
+    align-items: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.button2 {
+    height: 32px;
+    color: white;
+    background-color: rgb(27, 64, 185);
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+}

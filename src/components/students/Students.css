@@ -1,0 +1,22 @@
+.pagination2 {
+    margin-left: 65vw;
+}
+
+.pagination2 button {
+    color: rgb(233, 226, 226);
+    padding: 16px 20px;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+}
+
+.pagination2 button:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.pagination2 .active {
+    background-color: aquamarine;
+    color: black;
+}

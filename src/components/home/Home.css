@@ -1,0 +1,68 @@
+table {
+    margin-left: 25%;
+    margin-top: 3%;
+    width: 66vw;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: azure;
+    color: rgb(151, 158, 136);
+    border: 1px solid black;
+}
+
+th,
+td {
+    font-weight: 600;
+    align-items: center;
+    padding: 15px;
+}
+
+th {
+    color: white;
+    background-color: rgb(65, 56, 56);
+}
+
+td {
+    text-align: center;
+    color: black;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 9%;
+}
+
+.pagination button {
+    color: rgb(233, 226, 226);
+    padding: 16px 20px;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+}
+
+.pagination button:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.pagination .active {
+    background-color: aquamarine;
+    color: black;
+}
+
+.student {
+    background-color: rgb(14, 120, 206);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+}
+
+.student:hover {
+    color: black;
+    background-color: rgb(219, 97, 26);
+}

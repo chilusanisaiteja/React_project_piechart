@@ -1,0 +1,36 @@
+.sidebar {
+    position: absolute;
+    background-color: rgb(147, 192, 192);
+    color: rgb(18, 24, 24);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    margin-left: 0%;
+    width: 15%;
+    font-weight: 500;
+    font-size: larger;
+    padding-top: 50px;
+    flex: 0.2;
+}
+
+li .text-link {
+    color: inherit;
+    text-decoration: inherit;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    padding-left: 30px;
+}
+
+ul {
+    width: 100%;
+    text-align: start;
+    list-style: none;
+    padding-left: 0;
+}
+
+.text-link:hover {
+    background-color: aliceblue;
+    color: rgb(25, 142, 197);
+}
